@@ -57,5 +57,5 @@ class Solution(object):
     Combining the bottom 2 while loops and the top 2 for loops. 
 
     Also we dont need a nested for loop, we can have a for while instead
-    
+     
     '''
