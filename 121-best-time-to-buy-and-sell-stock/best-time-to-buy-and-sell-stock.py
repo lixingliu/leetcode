@@ -7,7 +7,8 @@ class Solution:
             current = prices[r]
             if current < low:
                 low = current
-            if current > low and current - low > profit:
-                profit = current - low
+            else:
+                if current - low > profit:
+                    profit = current - low
             r += 1
         return profit
